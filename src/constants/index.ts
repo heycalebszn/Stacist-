@@ -1,5 +1,14 @@
 export const navLinks = [
     {
-        link: "",
-    }
+        link: "Product",
+    },
+    {
+        link: "Pricing",
+    },
+    {
+        link: "About",
+    },
+    {
+        link: "Resources",
+    },
 ]
