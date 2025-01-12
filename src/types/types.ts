@@ -11,3 +11,7 @@ export interface ButtonProps {
     padding?: string
     textSize?: string
 }
+
+export interface TopProps {
+    tag: string
+}
