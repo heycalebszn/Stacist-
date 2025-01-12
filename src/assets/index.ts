@@ -7,6 +7,7 @@ import Google from "./svg/companies/google.svg"
 import Airbnb from "./svg/companies/airbnb.svg"
 import Slack from "./svg/companies/slack.svg"
 import Spotify from "./svg/companies/spotify.svg"
+import TrackingImage from "./svg/tracking/tracking.svg"
 
 export {
     Logo,
@@ -18,4 +19,5 @@ export {
     Slack,
     Spotify,
     Airbnb,
+    TrackingImage,
 }
