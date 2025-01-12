@@ -8,6 +8,9 @@ import Airbnb from "./svg/companies/airbnb.svg"
 import Slack from "./svg/companies/slack.svg"
 import Spotify from "./svg/companies/spotify.svg"
 import TrackingImage from "./svg/tracking/tracking.svg"
+import Biden from "./svg/profiles/biden.svg"
+import Micheal from "./svg/profiles/micheal.svg"
+import Sarah from "./svg/profiles/sarah.svg"
 
 export {
     Logo,
@@ -20,4 +23,7 @@ export {
     Spotify,
     Airbnb,
     TrackingImage,
+    Sarah,
+    Biden,
+    Micheal,
 }
