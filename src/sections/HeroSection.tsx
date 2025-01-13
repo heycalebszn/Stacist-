@@ -12,7 +12,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-col relative z-50">
-            <h1 className="text-[3.5rem] font-bold w-[1100px]">All-in-one software to automate tasks, boost collaboration, and drive productivity</h1>
+            <h1 className="text-[3.5rem] font-bold w-[1000px]">All-in-one software to automate tasks, boost collaboration, and drive productivity</h1>
 
             <div className="flex gap-2 items-center justify-center m-auto bg-gradient-to-r from-[#00BDFF] to-[#0037F8] mt-[30px] rounded-[12px] px-[25px] py-[10px]">
             <Button bgStyle={"bg-transparent"} width={"250px"} tag={"Get Started For free"} textSize="10px" />

@@ -17,7 +17,7 @@ export const Navbar = () => {
 
             <div className="flex gap-4">
                 <Button bgStyle={"bg-transparent"} width="100px" tag="Sign in" padding="" textSize={""} />
-                <Button bgStyle={"bg-red-500"} width="100" tag="Sign up" padding="" textSize={""} />
+                <Button bgStyle={"bg-[]"} width="100" tag="Sign up" padding="" textSize={""} />
             </div>
         </nav>
     )
