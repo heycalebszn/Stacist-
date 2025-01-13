@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <section className="text-white flex">Pricing</section>
   )
 }
 

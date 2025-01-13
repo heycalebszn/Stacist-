@@ -59,13 +59,13 @@ export const testimonials = [
         desc: "This software transformed the way our team collaborates. Tasks are now streamlined, and productivity has never been higher!",
     },
     {
-        profile: Micheal,
+        profile: Sarah,
         username: "Micheal Lee",
         profileAt: "theMicheallee",
         desc: "This software transformed the way our team collaborates. Tasks are now streamlined, and productivity has never been higher!",
     },
     {
-        profile: Sarah,
+        profile: Biden,
         username: "Micheal Lee",
         profileAt: "theMicheallee",
         desc: "This software transformed the way our team collaborates. Tasks are now streamlined, and productivity has never been higher!",
