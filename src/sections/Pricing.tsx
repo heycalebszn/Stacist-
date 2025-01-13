@@ -1,6 +1,14 @@
+import Top from "../components/Top"
+
 const Pricing = () => {
   return (
-    <section className="text-white flex">Pricing</section>
+    <section className="text-white flex flex-col">
+        <div className="flex flex-col">
+        <Top tag={"Choose Your Plan"} />
+        <h1 className="text-[2rem] font-bold text-center pb-[80px]">What Our Clients Say About Us</h1>
+        <p className="text-gray-700 text-[0.9rem]"></p>
+        </div>
+    </section>
   )
 }
 
