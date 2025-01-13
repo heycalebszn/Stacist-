@@ -8,7 +8,6 @@ export interface ButtonProps {
     bgStyle: string
     width: string;
     tag: string
-    padding?: string
     textSize?: string
 }
 

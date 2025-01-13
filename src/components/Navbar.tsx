@@ -4,10 +4,10 @@ import { Button } from "./Button"
 
 export const Navbar = () => {
     return(
-        <nav className="flex justify-between px-[50px] py-[16px] bg-transparent bg-blur-lg items-center border-b border-[#161627] z-50">
+        <nav className="flex justify-between px-[50px] py-[16px] bg-transparent bg-blur-lg items-center border-b border-[#161627] z-50 w-full">
             <img src={Logo} alt="logo" className="w-[80px]" />
 
-            <div className="flex text-white">
+            <div className="md:flex text-white hidden">
             <ul className="flex gap-4">
             {navLinks.map((navLink, index) => (
                 <li key={index}><a href="#" className="text-[0.8rem]">{navLink.link}</a></li>
@@ -15,9 +15,9 @@ export const Navbar = () => {
             </ul>
             </div>
 
-            <div className="flex gap-4">
-                <Button bgStyle={"bg-transparent"} width="100px" tag="Sign in" padding="" textSize={""} />
-                <Button bgStyle={"bg-[]"} width="100" tag="Sign up" padding="" textSize={""} />
+            <div className="md:flex gap-4 hidden">
+                <Button bgStyle={"bg-transparent"} width="100px" tag="Sign in" textSize={""} />
+                <Button bgStyle={"bg-[]"} width="100" tag="Sign up" textSize={""} />
             </div>
         </nav>
     )

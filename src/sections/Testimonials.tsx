@@ -9,7 +9,7 @@ const Testimonials = () => {
         <div>
         <h1 className="text-[2.5rem] font-bold text-center pb-[80px]">What Our Clients Say About Us</h1>
 
-        <div className="grid grid-cols-3 text-white gap-x-[40px] gap-y-10">
+        <div className="md:grid grid-cols-3 text-white gap-x-[40px] gap-y-10 flex flex-col items-center justify-center">
             {testimonials.map((testimonial, index) => (
                 <div className="flex flex-col bg-gradient-to-br from-[#030322] to-[#070725] w-[280px] h-[180px] p-[20px] border border-[#0A0A45] rounded-[12px] shadow-2xl" key={index}>
                     <div className="flex bg-transparent">
