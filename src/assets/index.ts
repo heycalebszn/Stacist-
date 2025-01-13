@@ -11,6 +11,10 @@ import TrackingImage from "./svg/tracking/tracking.svg"
 import Biden from "./svg/profiles/biden.svg"
 import Micheal from "./svg/profiles/micheal.svg"
 import Sarah from "./svg/profiles/sarah.svg"
+import Facebook from "./svg/socials/facebook.svg"
+import X from "./svg/socials/x.svg"
+import Instagram from "./svg/socials/instagram.svg"
+import Tiktok from "./svg/socials/tiktok.svg"
 
 export {
     Logo,
@@ -26,4 +30,8 @@ export {
     Sarah,
     Biden,
     Micheal,
+    Facebook,
+    X,
+    Tiktok,
+    Instagram,
 }

@@ -1,4 +1,4 @@
-import { Airbnb, Biden, Google, Micheal, MS, Sarah, Slack, Spotify } from "../assets"
+import { Airbnb, Biden, Facebook, Google, Instagram, Micheal, MS, Sarah, Slack, Spotify, Tiktok, X } from "../assets"
 
 export const navLinks = [
     {
@@ -74,3 +74,18 @@ export const testimonials = [
 
 export const footerFaq = ["Getting Started", "Pricing & Billing", "Features Overview", "Troubleshooting", "Account Management"];
 export const footerProducts = ["Pricing", "Integrations", "Case Studies", "Features", "Demo/Free Trial"]
+
+export const footerSocials = [
+    {
+        social: X
+    },
+    {
+        social: Tiktok
+    },
+    {
+        social: Facebook
+    },
+    {
+        social: Instagram
+    },
+]
