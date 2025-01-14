@@ -15,11 +15,13 @@ import Facebook from "./svg/socials/facebook.svg"
 import X from "./svg/socials/x.svg"
 import Instagram from "./svg/socials/instagram.svg"
 import Tiktok from "./svg/socials/tiktok.svg"
+import Ellipse2 from "./svg/ellipse2.svg"
 
 export {
     Logo,
     Star,
     Ellipse,
+    Ellipse2,
     Hero,
     Google,
     MS,

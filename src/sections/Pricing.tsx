@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs"
 
 const Pricing = () => {
   return (
-    <section className="text-white flex flex-col">
+    <section className="text-white flex flex-col relative">
         <div className="flex flex-col">
         <Top tag={"Choose Your Plan"} />
         <h1 className="text-[2rem] font-bold text-center pb-[80px]">What Our Clients Say About Us</h1>
@@ -19,7 +19,7 @@ const Pricing = () => {
                     <span>{pricingPlan.trend}</span>
                     <p>{pricingPlan.toolType}</p>
                     <h1>${pricingPlan.price}<span>/Mo</span></h1>
-                    <div className="flex gap-2 items-center justify-center m-auto bg-gradient-to-r from-[#00BDFF] to-[#0037F8] mt-[30px] rounded-[12px] px-[25px] py-[10px] odd:bg-gradient odd:from-[#01011F] odd:to-[#111154]">
+                    <div className="flex gap-2 items-center justify-center bg-gradient-to-r from-[#00BDFF] to-[#0037F8] mt-[30px] rounded-[12px] px-[25px] py-[10px] odd:bg-gradient odd:from-[#01011F] odd:to-[#111154] w-full">
                         <Button bgStyle={"bg-transparent"} width={"250px"} tag={"Buy Now"} textSize="10px" />
                         <BsArrowRight className="bg-transparent text-[15px] text-center"/>
                     </div>
