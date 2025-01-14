@@ -18,7 +18,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-col relative z-50 text-center items-center justify-center">
-            <h1 className="md:text-[3.5rem] font-bold md:w-[1000px] text-[1.2rem] w-full">All-in-one software to automate tasks, boost collaboration, and drive productivity</h1>
+            <h1 className="md:text-[3.5rem] font-bold md:w-[1000px] text-[1.5rem] w-full">All-in-one software to automate tasks, boost collaboration, and drive productivity</h1>
 
             <div className="flex gap-2 items-center justify-center m-auto bg-gradient-to-r from-[#00BDFF] to-[#0037F8] mt-[30px] rounded-[12px] px-[25px] py-[10px]">
             <Button bgStyle={"bg-transparent"} width={"250px"} tag={"Get Started For free"} textSize="10px" />

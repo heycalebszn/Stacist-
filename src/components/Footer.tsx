@@ -30,7 +30,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="md:flex md:flex-row gap-[150px] flex-col md:mt-0 mt-[15px]">
+                <div className="md:flex md:flex-row gap-[150px] flex-col md:mt-0 mt-[25px]">
                     <div className="flex flex-col">
                         <h1>FAQ</h1>
                         {footerFaq.map((faqs, index) => (

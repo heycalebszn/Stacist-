@@ -21,7 +21,10 @@ export const Navbar = () => {
                     <Button bgStyle={"bg-transparent"} width={""} tag={"Sign up"} textSize="" />
                 </div>
             </div>
+
+            <div>
             <RiMenu2Line className="text-[25px]"/>
+            </div>
         </nav>
     )
 }
