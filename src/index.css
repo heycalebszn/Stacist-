@@ -8,3 +8,7 @@
     background-color: #000027;
     font-family: "DM Sans", serif;
 }
+
+body{
+    overflow-x: hidden;
+}

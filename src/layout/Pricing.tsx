@@ -10,7 +10,7 @@ const Pricing = () => {
     <section className="text-white flex flex-col relative z-20 items-center justify-center">
         <div className="flex flex-col justify-center items-center">
         <Top tag={"Choose Your Plan"} />
-        <h1 className="md:text-[2rem] font-bold text-center pb-[20px] text-[1.4rem]">What Our Clients Say About Us</h1>
+        <h1 className="md:text-[2rem] font-bold text-center pb-[20px] text-[1.4rem]">Choose the Perfect Plan foy You</h1>
         <p className="text-gray-400 md:text-[1.2rem] md:w-[880px] text-[0.8rem] w-full">Get Started for Free and Enjoy Advanced Features with Premium Plans Starting at Just $10.99/Month</p>
         </div>
 

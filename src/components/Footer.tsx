@@ -39,7 +39,7 @@ export const Footer = () => {
                     <div>
                         </div>
                     </div>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col md:mt-0 mt-[15px]">
                         <h1>Product</h1>
                         {footerProducts.map((product, index) => (
                             <p key={index} className="text-[12px] text-gray-500 pt-[12px] cursor-pointer">{product}</p>

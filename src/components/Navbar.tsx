@@ -1,3 +1,4 @@
+import { RiMenu2Line } from "react-icons/ri"
 import { Logo } from "../assets"
 import { navLinks } from "../constants"
 import { Button } from "./Button"
@@ -6,7 +7,6 @@ export const Navbar = () => {
     return(
         <nav className="flex justify-between px-[50px] py-[16px] bg-transparent bg-blur-lg items-center border-b border-[#161627] z-50 w-full">
             <img src={Logo} alt="logo" className="w-[80px]" />
-
             <div className="md:flex text-white hidden">
             <ul className="flex gap-4">
             {navLinks.map((navLink, index) => (
@@ -21,6 +21,7 @@ export const Navbar = () => {
                     <Button bgStyle={"bg-transparent"} width={""} tag={"Sign up"} textSize="" />
                 </div>
             </div>
+            <RiMenu2Line className="text-[25px]"/>
         </nav>
     )
 }
