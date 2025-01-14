@@ -3,6 +3,7 @@ import { Button } from "../components/Button"
 import Top from "../components/Top"
 import { pricingPlans } from "../constants"
 import { BsArrowRight } from "react-icons/bs"
+import { motion } from "motion/react"
 
 const Pricing = () => {
   return (
@@ -13,7 +14,11 @@ const Pricing = () => {
         <p className="text-gray-400 text-[1.2rem] w-[880px]">Get Started for Free and Enjoy Advanced Features with Premium Plans Starting at Just $10.99/Month</p>
         </div>
 
-        <div className="flex gap-4 mt-[50px]">
+        <motion.div className="flex gap-4 mt-[50px]"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{duration: 1, ease: "easeInOut"}}
+        >
             {pricingPlans.map((pricingPlan, index) => (
                 <div className="flex flex-col even:border even:border-[#0037F8] rounded-[12px] text-left w-[280px] h-[400px] p-[20px] odd:border odd:border-[#0C0C68BD]" key={index}>
                     <span className="">{pricingPlan.trend}</span>
@@ -34,7 +39,7 @@ const Pricing = () => {
                     </div>
                 </div>
             ))}
-        </div>
+        </motion.div>
 
         
     </section>
