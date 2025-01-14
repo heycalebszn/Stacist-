@@ -5,8 +5,8 @@ import { Button } from "./Button"
 
 export const Footer = () => {
     return(
-        <footer className="flex flex-col text-white mt-[100px] bg-gradient from-[#010114] via-[#01011C] to-[#010114] w-full">
-            <div className="flex justify-between border-b border-[#161627] px-[50px] py-[16px] items-center bg-[#010114]">
+        <footer className="flex flex-col text-white mt-[100px] bg-gradient-to-b from-[#010114] via-[#01011C] to-[#010114] w-full">
+            <div className="flex justify-between border-b border-[#161627] px-[50px] py-[16px] items-center">
                 <img src={Logo} alt="logo" className="bg-transparent" />
                 <div className="flex gap-2 bg-transparent">
                 {footerSocials.map((fs, index) => (

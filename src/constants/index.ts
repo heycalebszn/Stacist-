@@ -17,19 +17,19 @@ export const navLinks = [
 
 export const companies = [
     {
-        image: Google,
+        image: MS,
     },
     {
         image: Spotify,
     },
     {
-        image: Slack,
+        image: Google,
     },
     {
         image: Airbnb,
     },
     {
-        image: MS,
+        image: Slack,
     }
 ]
 
