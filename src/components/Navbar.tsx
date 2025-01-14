@@ -22,7 +22,7 @@ export const Navbar = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="flex md:hidden">
             <RiMenu2Line className="text-[25px]"/>
             </div>
         </nav>

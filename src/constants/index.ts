@@ -95,6 +95,7 @@ export const pricingPlans = [
         trend: "Popular",
         toolType: "Advance tools, more power",
         price: 0,
+        plus: false,
         buttongradient: false,
         others: ["Basic Functionality","User Limit","Limited Integrations","Community Support", "5Gb, Limited storage capacity"]
     },
@@ -103,6 +104,7 @@ export const pricingPlans = [
         toolType: "Advance tools, more power",
         price: 10.99,
         plan: "Everything in Free",
+        plus: true,
         buttongradient: true,
         others: ["Advanced Functionality","Increased User Limit","Priority Support", "Customizable Branding", "5Gb, Limited storage capacity"]
     },
@@ -110,6 +112,7 @@ export const pricingPlans = [
         trend: "Popular",
         toolType: "Advance tools, more power",
         price: 15.99,
+        plus: true,
         plan: "Everything in Free",
         buttongradient: false,
         others: ["Unlimited Functionality","Enterprise-Level Support","Custom Solutions","Team Expansion", "Advanced Security"]

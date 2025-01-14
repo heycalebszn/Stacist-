@@ -4,6 +4,7 @@ import Top from "../components/Top"
 import { pricingPlans } from "../constants"
 import { BsArrowRight } from "react-icons/bs"
 import { motion } from "motion/react"
+import { FaPlus } from "react-icons/fa"
 
 const Pricing = () => {
   return (
@@ -28,7 +29,7 @@ const Pricing = () => {
                         <Button bgStyle={"bg-transparent"} width={"250px"} tag={"Buy Now"} textSize="10px" />
                         <BsArrowRight className="bg-transparent text-[15px] text-center"/>
                     </div>
-                    <span className="mt-[10px]">{pricingPlan.plan}</span>
+                    <span className="mt-[10px] flex items-center gap-2">{pricingPlan.plan} {pricingPlan.plus && (<FaPlus className="text-[10px]"/>)} </span>
                     <div className="flex flex-col mt-[10px]">
                             {pricingPlan.others.map((other, index) => (
                             <div className="flex gap-2 mt-[10px]" key={index}>
