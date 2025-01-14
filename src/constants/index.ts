@@ -100,14 +100,14 @@ export const pricingPlans = [
     {
         trend: "Popular",
         toolType: "Advance tools, more power",
-        price: 0,
+        price: 10.99,
         plan: "Everything in Free",
         others: ["Advanced Functionality","Increased User Limit","Priority Support", "Customizable Branding", "5Gb, Limited storage capacity"]
     },
     {
         trend: "Popular",
         toolType: "Advance tools, more power",
-        price: 0,
+        price: 15.99,
         plan: "Everything in Free",
         others: ["Unlimited Functionality","Enterprise-Level Support","Custom Solutions","Team Expansion", "Advanced Security"]
     }
