@@ -11,7 +11,7 @@ const Testimonials = () => {
 
         <div className="md:grid grid-cols-3 text-white gap-x-[80px] gap-y-10 flex flex-col items-center justify-center">
             {testimonials.map((testimonial, index) => (
-                <div className="flex flex-col bg-gradient-to-br from-[#030322] to-[#070725] w-[280px] h-[180px] p-[20px] border border-l-[#0A0A45] border-r-[#404063] border-t-[#404063] border-b-[#404063] rounded-[12px] shadow-2xl" key={index}>
+                <div className="flex flex-col bg-gradient-to-br from-[#030322] to-[#070725] w-[280px] h-[180px] p-[20px] border border-[#0A0A45] rounded-[12px] shadow-2xl" key={index}>
                     <div className="flex bg-transparent">
                         <img src={testimonial.profile} alt="person" className="bg-transparent w-[45px]" />
                         <div className="flex flex-col bg-transparent items-start ml-[15px]">
