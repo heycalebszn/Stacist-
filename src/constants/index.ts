@@ -89,3 +89,26 @@ export const footerSocials = [
         social: Instagram
     },
 ]
+
+export const pricingPlans = [
+    {
+        trend: "Popular",
+        toolType: "Advance tools, more power",
+        price: 0,
+        others: ["Basic Functionality","User Limit","Limited Integrations","Community Support", "5Gb, Limited storage capacity"]
+    },
+    {
+        trend: "Popular",
+        toolType: "Advance tools, more power",
+        price: 0,
+        plan: "Everything in Free",
+        others: ["Advanced Functionality","Increased User Limit","Priority Support", "Customizable Branding", "5Gb, Limited storage capacity"]
+    },
+    {
+        trend: "Popular",
+        toolType: "Advance tools, more power",
+        price: 0,
+        plan: "Everything in Free",
+        others: ["Unlimited Functionality","Enterprise-Level Support","Custom Solutions","Team Expansion", "Advanced Security"]
+    }
+]
