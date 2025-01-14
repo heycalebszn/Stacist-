@@ -17,7 +17,7 @@ export const Navbar = () => {
 
             <div className="md:flex gap-4 hidden">
                 <Button bgStyle={"bg-transparent"} width="100px" tag="Sign in" textSize={""} />
-                <Button bgStyle={"bg-gradient fron-[#01011F] to-[#111154] w-[164px] h-[45px]"} width="100" tag="Sign up" textSize={""} />
+                <Button bgStyle={"bg-gradient from-[#01011F] to-[#111154] w-[164px] h-[45px]"} width="100" tag="Sign up" textSize={""} />
             </div>
         </nav>
     )
