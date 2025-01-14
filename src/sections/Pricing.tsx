@@ -20,7 +20,7 @@ const Pricing = () => {
                     <span className="">{pricingPlan.trend}</span>
                     <p className="text-gray-500 text-[0.8rem] pb-[10px]">{pricingPlan.toolType}</p>
                     <h1 className="text-[1.5rem] font-semibold">${pricingPlan.price}<span className="text-gray-600 text-[1rem]">/Mo</span></h1>
-                    <div className="flex gap-2 items-center justify-center even:bg-gradient-to-r even:from-[#00BDFF] even:to-[#0037F8] rounded-md px-[25px] py-[10px] odd:bg-gradient-to-b odd:from-[#01011F] odd:to-[#111154] w-full mt-[15px]">
+                    <div className="flex gap-2 items-center justify-center even:bg-gradient-to-r even:from-[#00BDFF] even:to-[#0037F8] rounded-md py-[10px] odd:bg-gradient-to-b odd:from-[#01011F] odd:to-[#111154] w-full mt-[15px]">
                         <Button bgStyle={"bg-transparent"} width={"250px"} tag={"Buy Now"} textSize="10px" />
                         <BsArrowRight className="bg-transparent text-[15px] text-center"/>
                     </div>
