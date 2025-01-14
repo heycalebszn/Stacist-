@@ -3,7 +3,6 @@ import { Button } from "../components/Button"
 import Top from "../components/Top"
 import { pricingPlans } from "../constants"
 import { BsArrowRight } from "react-icons/bs"
-import { Ellipse2 } from "../assets"
 
 const Pricing = () => {
   return (
@@ -16,7 +15,7 @@ const Pricing = () => {
 
         <div className="flex gap-4 mt-[50px]">
             {pricingPlans.map((pricingPlan, index) => (
-                <div className="flex flex-col even:border even:border-l-[#0037F8] even:border-t-[#0037F8] even:border-b-[#0C0C68BD] even:border-r-[#0C0C68BD] rounded-[12px] text-left w-[280px] h-[400px] p-[20px] odd:border odd:border-[#0C0C68BD]" key={index}>
+                <div className="flex flex-col even:border even:border-l-[#0037F8] even:border-t-[#0037F8] even:border-b-[#0037F8] even:border-r-[#0C0C68BD] rounded-[12px] text-left w-[280px] h-[400px] p-[20px] odd:border odd:border-[#0C0C68BD]" key={index}>
                     <span className="">{pricingPlan.trend}</span>
                     <p className="text-gray-500 text-[0.8rem] pb-[10px]">{pricingPlan.toolType}</p>
                     <h1 className="text-[1.5rem] font-semibold">${pricingPlan.price}<span className="text-gray-600 text-[1rem]">/Mo</span></h1>
@@ -37,7 +36,7 @@ const Pricing = () => {
             ))}
         </div>
 
-        <img src={Ellipse2} alt="Ellipse" className="absolute top-[20px] left-0 right-0 m-auto -z-10 w-[800px] h-[800px]" />
+        
     </section>
   )
 }
