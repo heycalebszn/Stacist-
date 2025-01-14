@@ -12,7 +12,7 @@ const HeroSection = () => {
     whileInView={{ opacity: 1 }}
     transition={{duration: 1, ease: "easeInOut"}}
     >
-        <div className="bg-gradient-to-b from-[#000027] to-[#01011A] border py-[5px] px-[10px] text-white flex gap-2 rounded-full border-gray-800">
+        <div className="bg-gradient-to-b from-[#000027] to-[#01011A] border py-[5px] px-[10px] text-white flex gap-2 rounded-full border-gray-800 md:my-0 my-[15px]">
             <img src={Star} alt="star" className="w-[15px] bg-transparent" />
             <h1 className="text-[0.9rem] font-semibold bg-transparent">Your Workspace Perfected</h1>
         </div>

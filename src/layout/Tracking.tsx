@@ -13,7 +13,7 @@ const Tracking = () => {
     transition={{duration: 1, ease: "easeInOut"}}
     >
             <h1 className="md:text-[2.5rem] font-bold md:w-[750px] text-[1.2rem] w-[400px]">Manage and Monitor Your Projects in Real Time</h1>
-            <img src={TrackingImage} alt="Tracking" className="md:w-[700px] mt-[80px] w-[300px]"/>
+            <img src={TrackingImage} alt="Tracking" className="md:w-[700px] md:mt-[80px] mt-[30px] w-[300px]"/>
         </motion.div>
     </div>
   )
