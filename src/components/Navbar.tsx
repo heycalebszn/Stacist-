@@ -16,10 +16,10 @@ export const Navbar = () => {
             <div className="flex md:hidden cursor-pointer" onClick={handleNavToggle}>
             <RiMenu2Line className="text-[25px] text-white cursor pointer"/>
             </div>
-            <div className={`"md:flex text-white hidden" ${openNav ? "flex flex-col bg--[#01011F] rounded-[12px] h-[150px] w-fit px-[50px] absolute top-[80px] right-[30px] z-50 py-[20px]" : "hidden"}`}>
+            <div className={`"md:flex text-white hidden" ${openNav ? "flex flex-col bg--[#01011F] rounded-[12px] h-[150px] w-fit px-[50px] absolute top-[80px] right-[30px] z-50 py-[20px] border border-gray-700" : "hidden"}`}>
             <ul className="md:flex gap-4 flex-col bg-transparent">
             {navLinks.map((navLink, index) => (
-                <li key={index}><a href="#" className="text-[0.8rem]">{navLink.link}</a></li>
+                <li key={index}><a href="#" className="md:text-[0.8rem] text-[1rem]">{navLink.link}</a></li>
             ))}
             </ul>
             </div>
