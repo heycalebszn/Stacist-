@@ -7,7 +7,7 @@ import { motion } from "motion/react"
 const HeroSection = () => {
   return (
     <motion.header 
-    className="flex items-center justify-center mt-[30px] flex-col text-center text-white z-12 overflow-hidden"
+    className="flex items-center justify-center mt-[30px] flex-col text-center text-white -z-12 overflow-hidden"
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{duration: 1, ease: "easeInOut"}}
@@ -17,7 +17,7 @@ const HeroSection = () => {
             <h1 className="md:text-[0.9rem] text-[0.7rem] font-semibold bg-transparent">Your Workspace Perfected</h1>
         </div>
 
-        <div className="flex flex-col relative z-50 text-center items-center justify-center">
+        <div className="flex flex-col relative z-12 text-center items-center justify-center">
             <h1 className="md:text-[3.5rem] font-bold md:w-[1000px] text-[1.5rem] w-full">All-in-one software to automate tasks, boost collaboration, and drive productivity</h1>
 
             <div className="flex gap-2 items-center justify-center m-auto bg-gradient-to-r from-[#00BDFF] to-[#0037F8] mt-[30px] rounded-[12px] px-[25px] py-[10px]">

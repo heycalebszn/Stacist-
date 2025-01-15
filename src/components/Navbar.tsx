@@ -13,11 +13,11 @@ export const Navbar = () => {
     return(
         <nav className="flex justify-between px-[50px] py-[16px] bg-transparent bg-blur-lg items-center border-b border-[#161627] z-50 w-full relative">
             <img src={Logo} alt="logo" className="md:w-[80px] w-[100px]" />
-            <div className="flex md:hidden">
-            <RiMenu2Line className="text-[25px] text-white cursor pointer" onClick={handleNavToggle}/>
+            <div className="flex md:hidden cursor-pointer" onClick={handleNavToggle}>
+            <RiMenu2Line className="text-[25px] text-white cursor pointer"/>
             </div>
-            <div className={`"md:flex text-white hidden" ${openNav ? "flex flex-col bg-gray-800 rounded-[12px] h-[150px] w-fit px-[100px] absolute top-0 right-0" : "hidden"}`}>
-            <ul className="flex gap-4">
+            <div className={`"md:flex text-white hidden" ${openNav ? "flex flex-col bg--[#01011F] rounded-[12px] h-[150px] w-fit px-[50px] absolute top-[80px] right-[30px] z-50 py-[20px]" : "hidden"}`}>
+            <ul className="md:flex gap-4 flex-col bg-transparent">
             {navLinks.map((navLink, index) => (
                 <li key={index}><a href="#" className="text-[0.8rem]">{navLink.link}</a></li>
             ))}
