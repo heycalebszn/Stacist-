@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export interface SectionProps {
+export interface SectionProps 
     children: ReactNode
 }
 
