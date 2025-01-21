@@ -9,7 +9,7 @@ import Tracking from "./layout/Tracking";
 const App = () => {
   return(
     <div>
-      <Navbar />
+      <Navbar 
       <Section>
       <HeroSection />
       <Tracking />
